@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: mahjong-attendance
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ATTENDANCE_STORE
+        value: /var/data/store.json
+    disk:
+      name: attendance-data
+      mountPath: /var/data
+      sizeGB: 1
+

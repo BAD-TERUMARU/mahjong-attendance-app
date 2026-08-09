@@ -1,0 +1,4 @@
+match_id,date,weekday,start_time,opponent_team_1,opponent_team_2,opponent_team_3,required_players,note
+M20260516,2026-05-16,Sat,21:00,Sample Team A,Sample Team B,Sample Team C,4,通常リーグ戦
+M20260523,2026-05-23,Sat,21:00,Sample Team D,Sample Team E,Sample Team F,4,ポイント上位卓想定
+M20260530,2026-05-30,Sat,21:00,Sample Team G,Sample Team H,Sample Team I,4,開始前に点呼

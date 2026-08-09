@@ -1,0 +1,17 @@
+{
+  "name": "mahjong-attendance",
+  "version": "0.1.0",
+  "description": "Attendance management for a mahjong team.",
+  "main": "src/web-server.js",
+  "scripts": {
+    "start": "node src/web-server.js",
+    "web": "node src/web-server.js",
+    "bot": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "check": "node --check src/index.js && node --check src/web-server.js && node --check src/deploy-commands.js && node --check src/config.js && node --check src/lib/csv.js && node --check src/lib/storage.js && node --check src/lib/attendance-store.js"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "discord.js": "^14.16.3"
+  }
+}
