@@ -1,5 +1,11 @@
 # Attendance App
 
+> Status: Prototype / Work in Progress
+>
+> このリポジトリは、麻雀チーム向け出欠管理アプリの試作品です。
+> Web版とDiscord Bot版の実験的な実装を含みます。
+> そのまま本番運用する前に、認証・権限・データ保存方式などの確認と調整が必要です。
+
 その日の対戦予定と参加可否をDiscord上で管理するアプリです。
 
 ## Goal
